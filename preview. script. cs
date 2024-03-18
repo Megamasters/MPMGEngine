@@ -1,1 +1,15 @@
-us
+using MPMGE;
+//and other using
+
+namespace MPMGE;
+
+public static class Script : MPMGE
+{
+MPMGE MPMGE = MPMGE;
+//called every millisecond
+public void OneMs()
+{// transform object
+MPMGE.Position(...) //...=data 
+//open scene
+MPMGE.StartScene(Scene = "C:\\files\Scene.mpmge") 
+}
